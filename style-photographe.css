@@ -99,6 +99,10 @@
     flex-direction: row;
 }
 
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
 .column{
     flex-direction: column;
 }
@@ -113,6 +117,10 @@
 
 .gap-32{
     gap: 32px;
+}
+
+.gap-64{
+    gap: 64px;
 }
 
 /* ------------------------------
@@ -170,6 +178,14 @@
 
 .pt-32{
     padding-top: 32px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
 }
 
 .pb-32{
@@ -235,9 +251,13 @@
     background-repeat: no-repeat;
 }
 
-.card{
-    background-color: #FFF2E5;
+
+
+.card-temoignage{
+    background-color: #C8A27A;
     background-size: cover;
+    height: 150px;
+    width: 350px;
     background-repeat: no-repeat;
 }
 
@@ -252,9 +272,12 @@
     height: 192px;
     width: 288px;
     object-fit: cover;
-    object-position: center;
-    border-radius: 0 100px 0 100px;
+    object-position: 0 -40px;
+    
 }
+
+    
+
 
 
 
@@ -343,6 +366,10 @@ p{
 
 .img-border{
     border-radius: 0 100px 0 100px;
+}
+
+.border-img{
+    border-radius: 100px 0 100px 0;
 }
 
 /* ------------------------------
