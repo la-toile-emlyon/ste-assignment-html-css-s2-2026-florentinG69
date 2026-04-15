@@ -65,6 +65,7 @@
     width: 20%;
 }
 
+
 /* ------------------------------
             FLEXBOX
  ---------------------------------*/
@@ -78,12 +79,24 @@
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .align-center{
     align-items: center;
 }
 
 .justify-center{
     justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.row{
+    flex-direction: row;
 }
 
 .gap-8{
@@ -118,6 +131,14 @@
 
 .mb-32{
     margin-bottom: 32px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
 }
 
 .mt-128{
@@ -179,4 +200,134 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+/* ------------------------------
+            BACKGROUND
+ ---------------------------------*/
+
+.background-principal{
+    background-color: #C8A27A;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-blanc{
+    background-color: #FFF2E5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-marron{
+    background-color: #3E2C23;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-beige{
+    background-color: #F3DDC6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.crop{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0 100px 0 100px;
+}
+/* ------------------------------
+            BOUTON
+---------------------------------*/
+
+a{
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+
+.btn-marron{
+    background-color: #3E2C23;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    border-radius: 10px;  
+}
+
+.btn-principal{
+    background-color: #C8A27A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    border-radius: 10px;  
+}
+
+
+/* ------------------------------
+            TYPO
+---------------------------------*/
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    color: #3E2C23;
+
+}
+
+.lato-marron{
+    font-family: "Lato", sans-serif;
+    color: #3E2C23;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+    color: #3E2C23;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    color: #3E2C23;
+}
+
+
+/* ------------------------------
+            COULEUR
+---------------------------------*/
+
+.principal{
+    color: #C8A27A;
+}
+
+.blanc{
+    color: #FFF2E5;
+}
+
+.marron{
+    color: #3E2C23;
+}
+
+/* ------------------------------
+            POSITION
+---------------------------------*/
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 10%;
+    right: 10%;
+}
+
+/* ------------------------------
+           BORDER IMG
+---------------------------------*/
+
+.img-border{
+    border-radius: 0 100px 0 100px;
+}
+
+/* ------------------------------
+           LI
+---------------------------------*/
+
+li{
+    margin-bottom: 32px;
 }
