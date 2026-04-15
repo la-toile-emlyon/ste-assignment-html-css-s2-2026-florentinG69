@@ -202,7 +202,7 @@
 
 /* ------------------------------
             CONTAINER
- ---------------------------------*/
+---------------------------------*/
 
 .container-1000{
     max-width: 1000px;
@@ -251,14 +251,25 @@
     background-repeat: no-repeat;
 }
 
+.background-user{
+    background-color: #F3DDC6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 100px;
+    
+}
+
 
 
 .card-temoignage{
     background-color: #C8A27A;
     background-size: cover;
-    height: 150px;
-    width: 350px;
+    height: 200px;
+    width: 285px;
     background-repeat: no-repeat;
+    border-radius: 0 50px 0 50px;
+    padding: 10px;
 }
 
 .crop{
@@ -378,4 +389,9 @@ p{
 
 li{
     margin-bottom: 32px;
+}
+
+.img-size{
+    height: 70px;
+    width: 70px;
 }
