@@ -99,6 +99,10 @@
     flex-direction: row;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .gap-8{
     gap: 8px;
 }
@@ -231,12 +235,29 @@
     background-repeat: no-repeat;
 }
 
+.card{
+    background-color: #FFF2E5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .crop{
     height: 300px;
     object-fit: cover;
     object-position: top;
     border-radius: 0 100px 0 100px;
 }
+
+.crop-2{
+    height: 192px;
+    width: 288px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0 100px 0 100px;
+}
+
+
+
 /* ------------------------------
             BOUTON
 ---------------------------------*/
