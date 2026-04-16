@@ -31,6 +31,10 @@
     text-align: center; /* centrer le texte */
 }
 
+.text-end{
+    text-align: end;
+}
+
 .uppercase{
     text-transform: uppercase; /* mettre en majuscule */
 }
@@ -81,6 +85,10 @@
 
 .space-around{
     justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
 }
 
 .align-center{
@@ -233,10 +241,20 @@
     background-repeat: no-repeat;
 }
 
+.background-card{
+    background-color: #C8A27A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 50px 0 100px 0;
+}
+
+
 .background-blanc{
     background-color: #FFF2E5;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 0 0 100px 0;
 }
 
 .background-marron{
@@ -251,8 +269,35 @@
     background-repeat: no-repeat;
 }
 
-.background-user{
-    background-color: #F3DDC6;
+.background-img{
+    background-image: url(asset/photographe/nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg);
+    background-position: 0 -450px;
+    background-color: #eac7a2;
+    background-size: cover;
+    height: 550px;
+    background-repeat: no-repeat; 
+}
+
+.background-user1{
+    background-color: #ffaae7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 100px;
+    
+}
+
+.background-user2{
+    background-color: #8effc9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 100px;
+    
+}
+
+.background-user3{
+    background-color: #f0ff8c;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
@@ -265,11 +310,11 @@
 .card-temoignage{
     background-color: #C8A27A;
     background-size: cover;
-    height: 200px;
+    height: 250px;
     width: 285px;
     background-repeat: no-repeat;
-    border-radius: 0 50px 0 50px;
-    padding: 10px;
+    border-radius: 50px 0px 50px 0px;
+    padding: 20px;
 }
 
 .crop{
@@ -307,7 +352,8 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px 30px;
-    border-radius: 10px;  
+    border-radius: 10px;
+    cursor: pointer;  
 }
 
 .btn-principal{
@@ -316,7 +362,35 @@ a{
     background-repeat: no-repeat;
     padding: 10px 30px;
     border-radius: 10px;  
+    cursor: pointer;
 }
+
+
+
+.btn-envoyer{
+    background-color: #3E2C23;
+    color:#F3DDC6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    border-radius: 10px; 
+    height: 42px;
+    width: 147px;
+    cursor: pointer;
+}
+
+.btn-marron:hover{
+    background-color: #271c16;
+}
+
+.btn-envoyer:hover{
+    background-color: #271c16;
+}
+
+.btn-principal:hover{
+    background-color: #9a7e5f;
+}
+
 
 
 /* ------------------------------
@@ -333,6 +407,24 @@ a{
     color: #3E2C23;
 }
 
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
 h1, h2, h3{
     font-family: "Montserrat", sans-serif;
     color: #3E2C23;
@@ -343,6 +435,9 @@ p{
     color: #3E2C23;
 }
 
+.beige{
+    color: #eac7a2;
+}
 
 /* ------------------------------
             COULEUR
@@ -379,6 +474,10 @@ p{
     border-radius: 0 100px 0 100px;
 }
 
+.border-card{
+    border-radius: 0 100px 0 50px;
+}
+
 .border-img{
     border-radius: 100px 0 100px 0;
 }
@@ -399,3 +498,20 @@ li{
 .icon-size{
     font-size: 40px;
 }
+
+.input{
+    font-family: "Lato", sans-serif;
+    background-color: #F3DDC6;
+    border: none;
+    height: 40px;
+    width: 328px;
+    padding: 10px;
+    outline: none;
+}
+
+.img-section1{
+    height: 500px;
+    width: 500px;
+}
+
+
