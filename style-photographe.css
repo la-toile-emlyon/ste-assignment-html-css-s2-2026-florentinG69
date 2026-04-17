@@ -69,6 +69,10 @@
     width: 20%;
 }
 
+.w-15{
+    width: 15%;
+}
+
 
 /* ------------------------------
             FLEXBOX
@@ -513,4 +517,8 @@ li{
     width: 500px;
 }
 
-
+.relative{
+    position: relative;
+    top: 0;
+    left: 50px;
+}
